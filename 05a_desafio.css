@@ -1,6 +1,3 @@
-/* === DESAFIO GAMEZONE RETRO - ESTILO 8-BIT === */
-
-/* Fonte pixelada do Google Fonts (adicionar no HTML se quiser) */
 body {
     font-family: 'Courier New', monospace;
     background: linear-gradient(180deg, #0a0a23 0%, #1a1a3e 100%);
@@ -10,7 +7,6 @@ body {
     min-height: 100vh;
 }
 
-/* Título com efeito neon/arcade */
 .titulo-principal {
     text-align: center;
     font-size: 48px;
@@ -31,7 +27,6 @@ body {
     font-size: 18px;
 }
 
-/* Navegação estilo arcade */
 .navegacao {
     text-align: center;
     margin: 30px 0;
@@ -53,7 +48,6 @@ body {
     transform: scale(1.1) rotate(-2deg);
 }
 
-/* Banner com borda pixelada */
 .banner-principal {
     display: block;
     margin: 20px auto;
@@ -63,14 +57,12 @@ body {
     box-shadow: 0 0 20px #00ff00;
 }
 
-/* Títulos de seção */
 .titulo-secao {
     color: #ffff00;
     border-bottom: 2px dashed #ff00ff;
     padding-bottom: 10px;
 }
 
-/* Lista de consoles estilo menu */
 .lista-consoles {
     background: rgba(0,0,0,0.5);
     padding: 20px;
@@ -83,7 +75,6 @@ body {
     color: #00ff00;
 }
 
-/* Tabela estilo arcade */
 .tabela-precos {
     width: 100%;
     border-collapse: collapse;
@@ -108,7 +99,6 @@ body {
     text-align: right;
 }
 
-/* Rodapé */
 .rodape {
     text-align: center;
     color: #888;

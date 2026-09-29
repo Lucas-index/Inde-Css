@@ -1,5 +1,3 @@
-/* === CSS GRID E MULTIMÍDIA === */
-
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: #f4f4f9;
@@ -12,13 +10,12 @@ h1, h2 {
     color: #2c3e50;
 }
 
-/* === TABELA COM GRID-LIKE STYLING === */
 .tabela-relatorio {
     width: 100%;
     border-collapse: collapse;
     background: white;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    overflow: hidden; /* Esconde bordas que excedem */
+    overflow: hidden;
     border-radius: 10px;
 }
 
@@ -44,7 +41,7 @@ h1, h2 {
 
 .num-right {
     text-align: right;
-    font-family: 'Courier New', monospace; /* Fonte monoespaçada para números */
+    font-family: 'Courier New', monospace;
 }
 
 .total-linha {
@@ -57,12 +54,9 @@ h1, h2 {
     font-weight: bold;
 }
 
-/* === ESTILIZANDO MULTIMÍDIA === */
-
-/* Container para vídeos e áudio */
 video, iframe, audio {
     display: block;
-    margin: 20px auto; /* Centraliza elementos */
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
@@ -76,7 +70,6 @@ video, iframe, audio {
     border: 3px solid #ff0000;
 }
 
-/* Player de áudio customizado */
 .player-audio {
     width: 100%;
     max-width: 400px;
@@ -84,7 +77,6 @@ video, iframe, audio {
     padding: 5px;
 }
 
-/* Responsividade para vídeos */
 @media (max-width: 600px) {
     iframe {
         width: 100%;
